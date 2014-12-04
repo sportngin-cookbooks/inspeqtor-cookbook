@@ -7,5 +7,6 @@ version          "0.1.0"
 recipe           "inspeqtor::default", "Installs and configures Inspeqtor"
 
 supports "ubuntu"
+supports "amazon"
 
 depends "packagecloud"
