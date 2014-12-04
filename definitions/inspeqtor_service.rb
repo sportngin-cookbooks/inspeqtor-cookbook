@@ -29,7 +29,7 @@ define :inspeqtor_service do
       variables(
         :service_name => service_name,
         :with_params  => with_params,
-        :rules        => Array(params[:rules]),
+        :rules        => Array(params[:rules])
       )
     end
   when :delete
